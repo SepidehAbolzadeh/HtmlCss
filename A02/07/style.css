@@ -1,0 +1,22 @@
+p{
+    height: 100px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.css{
+    color:red;
+    background-color: greenyellow;   
+}
+.rbg{
+    color:rgb(7, 15, 65);
+    background-color: rgb(82, 181, 194);  
+}
+.hex{
+    color:#00ff00;
+    background-color:#ffff00;
+}
+.hsl{
+    color:hsl(318, 84%, 58%);
+    background-color: hsl(288, 71%, 33%);
+}

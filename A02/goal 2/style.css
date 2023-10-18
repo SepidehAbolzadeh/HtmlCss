@@ -1,0 +1,45 @@
+body{
+    background-image: url("image/background.jpg");
+    background-size:cover ;
+}
+h2{
+    color:chartreuse;
+    text-align: center;
+}
+img{
+    width: 270px;
+    height:270px;
+}
+.list{
+    font-size: 20px;
+    width: fit-content;
+    border: 3px solid hidden;
+    margin-left: 570px;
+    padding-left: 20px;
+    background-color: #d1daa2;
+}
+.form{
+    font-size:20px ;
+    color:black;
+    background-color: #d1daa2;
+}
+
+table{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+tr , th , td{
+    border:3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td,tr{
+    background-color: #d6b7b7;
+}
+th {
+    background-color: #b67979;
+    color:rgb(109, 38, 150);
+}
