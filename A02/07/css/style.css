@@ -2,11 +2,12 @@ p{
     height: 100px;
     width: 300px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
 }
 .css{
     color:red;
-    background-color: greenyellow;   
+    background-color: greenyellow;
+      
 }
 .rbg{
     color:rgb(7, 15, 65);

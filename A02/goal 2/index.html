@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>goal2</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <h2><i>My favorite movies:</i></h2>
+    <body class="fullbody">
+        <div class="mfm">
+            <h2><i>My favorite movies:</i></h2>
+        </div>
 
-        <div class="list">
+        <div class="filmlist">
             <dl>
                 <li>Interstellar</li>
                 <li>A Beautiful Mind</li>
@@ -17,15 +19,15 @@
             </dl>
         </div>
 
-        <div>
-            <img src="image/int.jpg">
-            <img src="image/bu.jpg">
-            <img src="image/star.jpg">
-            <img src="image/sha.jpg">
-            <img src="image/Grey.jpg">
-        </div> 
+        <div class="imgbox">
+                <img id="imgint" src="image/int.jpg">
+                <img id="imgbu" src="image/bu.jpg">
+                <img id="imgstar" src="image/star.jpg">
+                <img id="imgsha" src="image/sha.jpg">
+                <img id="imggrey" src="image/Grey.jpg">
+        </div>
 
-        <div class="form">
+        <div class="filmform">
             <form>
                 <fieldset>
                     <legend><b>Movie Box</b></legend>
@@ -43,7 +45,7 @@
         </div>
 
         <div>
-            <table>    
+            <table class="filmtable">    
                 <tr class="row1">
                     <th>Name</th>
                     <th>Direct By</th>
