@@ -1,0 +1,48 @@
+.pcss{
+    color:black;
+    display:inline-block;
+}
+.prgb{
+    color:blue;
+    display:inline-block;
+} 
+.phex{
+    color:red;
+    display:inline-block;
+}
+.phsl {
+    color:rgb(95, 54, 95);
+    display:inline-block;
+}
+.csscolor{
+   border:3px solid rgb(21, 21, 53);
+   background-color: greenyellow;
+   text-align: center;
+   margin:10px auto;
+   width: 700px;
+   height: 80px;
+}
+.rgb{
+    border:3px dotted rgb(48, 120, 122);
+    background-color: rgb(58, 228, 228);
+    text-align: center;
+    margin:10px auto;
+    width: 700px;
+    height: 80px;
+}
+.hex{
+    border:3px solid rgb(243, 90, 63);
+    background-color: rgb(255, 255, 24);
+    text-align: center;
+    margin:10px auto;
+    width: 700px;
+    height: 80px;
+}
+.hsl{
+    border:3px dotted rgb(115, 39, 122);
+    background-color: rgb(170, 102, 187);
+    text-align: center;
+    margin:10px auto;
+    width: 700px;
+    height: 80px;
+}
