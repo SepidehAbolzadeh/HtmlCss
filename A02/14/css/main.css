@@ -1,3 +1,7 @@
+.all{
+    background-color: rgb(175, 175, 122);
+
+}
 .container{
     border: 20px solid rgb(17, 17, 75);
     background-color: aqua;
