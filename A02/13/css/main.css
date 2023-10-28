@@ -16,6 +16,7 @@ body{
     margin-top: 183px;
     background-image: url(../image/286260.jpg);
     background-size: 450px 450px;
+    background-position: center;
 }
 .styletest{
     text-align: center;
