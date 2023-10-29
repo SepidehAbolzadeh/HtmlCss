@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    height:600px;
+    background-image: linear-gradient(to right , rgb(248, 180, 248) , rgb(228, 228, 168) , rgb(240, 170, 182) );
+    border:2px solid black;
+    box-shadow: 10px -5px 20px  rgb(173, 73, 82);
+    margin:100px auto;
+}
+.container p{
+    color : rgb(24, 24, 117);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: -2px;
+    line-height: 150%;
+    text-shadow: 5px -3px 10px green;
+    padding: 30px;
+}
