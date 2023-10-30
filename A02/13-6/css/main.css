@@ -1,0 +1,32 @@
+body{
+    width:100wh;
+    height: 800px;
+    background-image: linear-gradient(to top , rgb(2,235,243) , rgb(246,252,252));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    height:800px;
+    background-image:url(../images/back-ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.divchild{
+    width: 350px;
+    height:800px;
+    margin: auto;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.divchild img{
+    width:340px;
+    height:300px;
+    margin:50px 5px 30px 5px;
+}
+.divchild h1 , p{
+    color:white;
+    text-align: center;
+}
