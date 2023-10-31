@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top , rgb(140,107,202), rgb(8,6,11));
+    width: 99%;
+    height: 770px;
+    background-repeat: no-repeat;
+}
+.containertext h2 , p{
+    color:white;
+    text-align: center;
+}
+.imgpart{
+    width: 1300px;
+    height: 300px;
+    background-image: url(../image/SteveJobs.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    margin: auto;
+}
+.imgpart p{
+    color:rgb(1,213,250);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+}
+.Biography{
+    width:600px;
+    height: 300px;
+    margin: auto;
+}
+
+.Biography h1{
+    color: white;
+    font-size: 40px;
+}
+.Biography p{
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,37 @@
+body{
+    width: 99%;
+    height: 685px;
+    background-image: url(../image/53931.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headerpart{
+    width: 600px;
+    height: 100px;
+    color:white;
+    font-size: 40px;
+    margin:100px 200px 0 500px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textangel{
+    width:200px;
+    margin:200px auto 0px auto;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(to top, rgb(255, 232, 0), rgb(255, 109, 0));
+    margin:100px auto 0px auto;
+    padding:10px 40px;
+}
+.button a{
+    text-decoration: none;
+    color:black;
+}
