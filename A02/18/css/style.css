@@ -1,0 +1,131 @@
+@font-face {
+    font-family: dancing;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: edu;
+    src:url(../fonts/EduTASBeginner-VariableFont_wght.ttf);
+}
+.button{
+    display: inline-block;
+    border:5px solid rgb(86, 107, 43);
+    padding:20px 60px;
+    margin: 40px;
+    background-color: rgb(125, 196, 172);
+    box-shadow: 3px 3px 5px rgb(232, 252, 50);
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+    a.button:hover{
+        background-color: brown;
+        text-shadow: 3px 3px 5px grey;
+    }
+    a.button:active{
+        background-image:linear-gradient(to right , pink , rgb(160, 60, 138) );
+        text-decoration: underline;
+    }
+.click{
+    display: inline-block;
+    border:5px solid rgb(13, 14, 13);
+    border-radius: 30px;
+    padding:20px 50px;
+    margin: 40px;
+    background-color: rgb(118, 122, 121);
+    box-shadow: -3px 3px 10px rgb(138, 139, 167);
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    a.click:hover{
+    background-color: rgb(46, 38, 160);
+    text-decoration: underline dashed;
+    }
+    a.click:active{
+    background-image: radial-gradient(circle, rgb(117, 204, 117) , rgb(114, 114, 184));
+    }
+.submit{
+    display: inline-block;
+    border:10px solid rgb(149, 142, 187);
+    border-radius: 50%;
+    padding:20px 70px;
+    margin: 40px;
+    background-color: rgb(223, 166, 145);
+    box-shadow: -3px 3px 20px rgb(125, 127, 189) , 3px -3px 20px rgb(125, 127, 189) ;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+     a.submit:hover{
+    background-color: aquamarine;
+    color: darkmagenta;
+        font-family: Sofia;
+    }
+    a.submit:active{
+    background-color: aliceblue;
+    color: black;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 5px 10px;
+    }
+.gotolink{
+    display: inline-block;
+    border:2px solid hidden;
+    border-radius: 10px 30px 10px 30px;
+    padding:20px 70px;
+    margin: 40px;
+    background-color: rgb(231, 217, 151);
+    box-shadow: -3px -3px 10px rgb(202, 125, 129) ;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(10, 95, 10);
+    font-family:'Times New Roman', Times, serif;
+}
+    a.gotolink:hover{
+    background-image: radial-gradient(ellipse , salmon , yellow , green);
+    color: rgb(70, 34, 34);
+    text-shadow: -3px -3px 5px white;
+    }
+    a.gotolink:active{
+    background-image: radial-gradient(circle , rgb(90, 117, 148) , rgb(139, 255, 174) , rgb(219, 94, 178));
+    color: black;
+    text-shadow: -3px -3px 5px white;
+    text-decoration: dotted;
+    }
+
+.info{
+    border:2px solid hidden;
+    border-radius: 60%;
+    padding:20px 70px;
+    margin: 40px;
+    background-image: url(../image/star.jpg);
+    background-position: center;
+    font-size: 30px;
+    color:black;
+    font-family: edu;
+    text-transform: uppercase;
+}
+    a.info:hover{
+    background-image: url(../image/fantasy.jpg);
+    border: 1px solid violet;
+    border-radius: 30px;
+    font-family: dancing;
+    text-decoration: none;   
+    text-transform:none;
+    color: rgb(13, 31, 13);
+    box-shadow: 5px 5px 10px pink , -5px -5px 10px pink;
+    }
+    a.info:active{
+    background-image:linear-gradient(to right, rgb(155, 192, 155) , rgb(73, 119, 73) , rgb(165, 199, 165));
+    border:2px solid rgb(76, 131, 76);
+    border-radius: 10px 70px;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-transform:none;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgb(127, 230, 199) , -5px -5px 10px rgb(127, 230, 199);
+    }

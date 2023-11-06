@@ -1,0 +1,150 @@
+@font-face {
+    font-family:ExtraLight;
+    src: url(../font/Raleway-ExtraLight.ttf);
+}
+.homeclass , .setclass , .addclass , .contactclass{
+    display: block;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(155, 149, 149);
+    margin: 3px;
+    text-decoration: none;
+}
+.homeclass i{
+border-right: 1px solid rgb(48, 46, 46);
+color: rgb(80, 80, 235);
+font-size: 25px;
+}
+.homeclass p{
+    display: inline-block;
+    color: white;
+    font-family:ExtraLight;
+    font-size: 20px;
+    margin: 0px 0px 5px 10px;
+}
+div.homeclass:hover{
+    background-color: rgb(0, 233, 221);
+    }
+    div.homeclass:hover i{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.homeclass:hover p{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.homeclass:active{
+        background-color: rgb(0, 90, 255);
+    }
+    div.homeclass:active i{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    div.homeclass:active p{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    
+.setclass i{
+    border-right: 1px solid rgb(48, 46, 46);
+    color: rgb(80, 80, 235);
+    font-size: 25px;
+}
+.setclass p{
+    display: inline-block;
+    color: white;
+    font-family:ExtraLight;
+    font-size: 20px;
+    margin: 0px 0px 5px 10px;
+}
+div.setclass:hover{
+    background-color: rgb(0, 233, 221);
+    }
+    div.setclass:hover i{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.setclass:hover p{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.setclass:active{
+        background-color: rgb(0, 90, 255);
+    }
+    div.setclass:active i{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    div.setclass:active p{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    
+.addclass i{
+    border-right: 1px solid rgb(48, 46, 46);
+    color: rgb(80, 80, 235);
+    font-size: 25px;
+}
+.addclass p{
+    display: inline-block;
+    color: white;
+    font-family:ExtraLight;
+    font-size: 20px;
+    margin: 0px 0px 5px 10px;
+}
+div.addclass:hover{
+    background-color: rgb(0, 233, 221);
+    }
+    div.addclass:hover i{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.addclass:hover p{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.addclass:active{
+        background-color: rgb(0, 90, 255);
+    }
+    div.addclass:active i{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    div.addclass:active p{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+.contactclass i{
+    border-right: 1px solid rgb(48, 46, 46);
+    color: rgb(80, 80, 235);
+    font-size: 25px;
+}
+.contactclass p{
+    display: inline-block;
+    color: white;
+    font-family:ExtraLight;
+    font-size: 20px;
+    margin: 0px 0px 5px 10px;
+}
+div.contactclass:hover{
+    background-color: rgb(0, 233, 221);
+    }
+    div.contactclass:hover i{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.contactclass:hover p{
+        color:black;
+        background-color: rgb(0, 233, 221);
+    }
+    div.contactclass:active{
+        background-color: rgb(0, 90, 255);
+    }
+    div.contactclass:active i{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
+    div.contactclass:active p{
+        color:white;
+        background-color: rgb(0, 90, 255);
+    }
