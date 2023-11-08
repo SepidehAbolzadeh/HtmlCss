@@ -1,0 +1,56 @@
+@font-face {
+    font-family: kalam;
+    src: url(../fonts/Kalam-Bold.ttf);
+}
+@font-face {
+    font-family: acme;
+    src: url(../fonts/Acme-Regular.ttf);
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 350px;
+    height: 500px;
+    margin: 200px auto;
+    border: 2px solid hidden;
+    background-color: white;
+}
+.container h1{
+    color : black;
+    text-align: center;
+    font-family: kalam;
+    font-size: 30px;
+}
+.container p{
+    color : black;
+    text-align: justify;
+    font-family: acme;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 30px;
+}
+.container a{
+    display: inline-block;
+    font-family:Macondo;
+    color:black;
+    text-align: center;
+    border:3px solid black;
+    border-radius: 30px;
+    margin: 50px 115px;
+    padding:3px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container:hover{
+    background-image: linear-gradient(to top, pink , salmon , rgb(207, 150, 198) , rgb(161, 161, 206));
+}
+.container:hover p{
+     color:white;
+}
+.container a:hover{
+    font-family: kalam;
+    box-shadow: 2px 2px 5px rgb(182, 211, 125), -2px -2px 5px rgb(182, 211, 125);
+    color:white;
+    background-image: linear-gradient(to top, rgb(110, 110, 151) , rgb(41, 41, 206));
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height:100vh;
+    background-image: linear-gradient(to right, pink , rgb(238, 151, 142) , rgb(223, 154, 230) , rgb(127, 163, 127) , rgb(158, 153, 153) , white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stylelist a{
+    color:rgb(42, 13, 68);
+    text-decoration: none;
+    font-size: 30px;
+}
+.container{
+    border : 2px solid hidden;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    width: 800px;
+    height : 800px;
+    margin: auto;
+}
+.cssheader{
+    text-align: center;
+    color:darkblue;
+    font-size: 30px;
+    padding:10px;
+    text-shadow: 3px 3px 3px white ,-3px -3px 3px white;
+}
+.aboutcss{
+    text-align: justify;
+    padding: 30px 100px;
+    color: rgb(39, 12, 12);
+    border-bottom: 5px solid white;
+}
+.spanincss {
+    text-decoration: underline green solid 3px;
+}
+.htmlheader{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    padding:10px;
+    text-shadow: 3px 3px 5px rgb(132, 201, 129) ,-3px -3px 5px rgb(132, 201, 129);
+}
+.abouthtml{
+    color:rgb(219, 37, 128);
+    text-align: justify;
+    padding: 30px 100px;
+    border-bottom: 5px solid rgb(124, 15, 38);
+}
+.spaninhtml{
+    text-decoration: underline rgb(168, 168, 15) dashed 5px;
+}

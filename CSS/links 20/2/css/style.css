@@ -1,0 +1,58 @@
+body{
+    width: 99%;
+    height: 635px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:250px;
+    height:330px;
+    margin:150px auto;   
+    backdrop-filter: blur(15px);
+    border:2px solid hidden;
+    border-radius: 15px;
+}
+.container img{
+    width:250px;
+    height: 170px;
+    border:1px solid hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.containertext h2 , p{
+    text-align: center;
+    color:black;
+}
+
+.containertext i{
+    font-size: 25px;
+    padding:0 10px 10px 10px;
+    margin-bottom: 10px;
+
+}
+.instagram{
+    margin-left:56px ;
+}
+.stylep{
+    border:1px solid hidden;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: -10px;
+}
+
+/**hover section**/
+
+.hoverclass:hover{
+    color:grey;
+}
+.stylep:hover{
+    background-color: gray;
+    color : black;
+}

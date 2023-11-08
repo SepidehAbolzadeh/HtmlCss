@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    text-align: center;
+}
+body{
+    background-color: rgb(163, 157, 157);
+}
+.container{
+    width: 100vw;
+}
+.lineargbox{
+    width: 100vw;
+    height: 170px;
+    background-image: linear-gradient(to top , black , rgb(77 , 221 , 201));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stylep{
+    color:white;
+}
+.imagebox{   
+    width: 100vw;
+    height : 170px;
+    background-image: url("../image/image.jpg");
+}
+.colorbox{
+    width: 100vw;
+    height: 150px;
+    background-color:black;
+}
+.imagebox p{
+    color:black;
+}
+
+

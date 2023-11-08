@@ -1,0 +1,24 @@
+*{
+margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/1486387285_dff5s4zh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100vw;
+    height:50vh;
+    backdrop-filter: blur(5px);
+}
+.container p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+/*
+ :)عکسی که توی تمرین استفاده شد کنارش نبود منم از یه عکس دیگه استفاده کردم
+*/
