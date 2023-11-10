@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.csscolor, .rgbcolor ,.hexcolor {
+    width: 100vw;
+    height: 100px;
+    border-bottom: 2px solid rgb(189, 183, 183);
+    line-height: 50px;
+}
+.hslcolor{
+    width: 100vw;
+    height: 100px;
+    line-height: 50px;
+}
+.csscolor h1{
+    color:gray;
+}
+.csscolor p{
+    color:cadetblue;
+}
+.rgbcolor h1{
+    color: rgb(255 , 216 , 83);
+}
+.rgbcolor p{
+    color : rgb(238 , 189 , 166);
+}
+.hexcolor h1{
+    color:#6285d7;
+}
+.hexcolor p{
+    color: #b7a2db;
+}
+.hslcolor h1{
+    color: hsl(143, 60%, 39%);
+}
+.hslcolor p{
+    color: hsl(55, 12%, 60%);
+}
