@@ -12,9 +12,10 @@ body{
 .container{
     width: 20%;
     height: 40%;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border: 2px solid hidden;
     background-color: white;
+    transition: margin 1s ease-in;
 }
 .container h1{
     color : black;
@@ -36,12 +37,13 @@ body{
     border:3px solid black;
     border-radius: 30px;
     margin: 50px 80px;
-    padding:3px 30px;
-    font-size: 20px;
+    padding:0px 25px;
     text-decoration: none;
+    transition: padding 0.5s ease-in-out;
 }
 .container:hover{
     background-image: linear-gradient(to top, #b069b8 , #4568d9 );
+    margin:100px auto 0;
 }
 .container:hover p{
      color:white;
@@ -49,6 +51,8 @@ body{
 .container a:hover{
     font-family: kalam;
     color:white; 
-    border:3px solid hidden;    
+    border:3px solid white; 
+    margin: 50px 70px;   
+    padding: 0 40px;
     background-image:linear-gradient(to top, #033d7f , #190c45);
 }
