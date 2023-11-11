@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top , #05dad0 , #040752);
+}
+.container{
+    width: 30%;
+    height: 50%;
+    border :2px solid white;
+    border-radius: 20px;
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:100px auto 0;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}

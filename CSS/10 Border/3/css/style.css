@@ -1,0 +1,18 @@
+body{
+    background-color: #008b8b;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border:2px solid hidden;
+    background-color: #001414;
+    border-radius: 50%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    padding-top:180px;
+}
