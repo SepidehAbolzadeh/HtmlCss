@@ -1,0 +1,107 @@
+@font-face {
+    font-family:agbalumo;
+    src: url(../font/Agbalumo-Regular.ttf);
+}
+body{
+    margin:0;
+    background-image:url(../image/7.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.container{
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+/* start of style table*/
+table{
+    border:2px solid hidden;
+    border-radius: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 5px -5px 20px #c887a2 , -5px 5px 20px #c887a2;
+    background-image: url(../image/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+th , td {
+    border-bottom: 2px solid white;
+    height: 70px;
+    padding: 5px 10px;
+    color: black;
+    font-family: agbalumo;
+    text-align: center;
+    transition: all 1s ease-in ;
+}
+th{
+    color:rgb(19, 4, 44);
+    transition: color 1s ease-in;
+}
+tr:nth-child(odd){
+    backdrop-filter:saturate(1.75);
+}
+tr{
+    transition: all 0.5s linear;
+}
+/* end of style table*/
+
+
+
+/*hover section */
+td:hover{
+    background-color: rgb(151, 100, 199);
+    color:rgb(218, 230, 204);
+    border-radius: 30px;
+}
+tr:hover{
+    backdrop-filter: blur(15px);
+}
+.Interstellar:hover{
+    background-image:url(../image/Interstellar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Beautiful:hover{
+    background-image:url(../image/beautiful.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.star:hover{
+    background-image:url(../image/star.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Shawshank:hover{
+    background-image:url(../image/sha.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*end of hover section */
+
+
+

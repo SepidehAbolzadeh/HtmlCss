@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 20%;
+    height: 20%;
+    border: 2px solid white;
+    margin:auto;
+    margin-top: 100px;
+    transition: all 1s ease-in;
+}
+.container h1{
+    text-align: center;
+    color:rgb(51, 190, 190);
+    transition: all 1s ease 1s;
+}
+.container p{
+    text-align: center;
+    color: black;
+    transition: all 1s ease 1s;
+}
+.container:hover{
+    width: 40%;
+    height: 20%;
+    background-color: rgb(102, 192, 162);
+    border: 2px solid white;
+}
+.container:hover p{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.container:hover h1{
+    color:white;
+    padding-top: 20px;
+}
