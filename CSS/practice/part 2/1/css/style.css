@@ -1,0 +1,46 @@
+@font-face {
+    font-family:agba;
+    src: url(../font/Agbalumo-Regular.ttf);
+}
+body{
+    margin:0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #020203 , #556f85);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tablebox{
+    width: 50%;
+    margin: 50px auto;
+}
+.mytable-header{
+    color:white;
+    text-align: center;
+}
+.mytable-paraghraph{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.mytable{
+    width: 100%;
+    border-spacing: 8px;
+    empty-cells: hide;
+    border-collapse: separate;
+}
+th{
+    background-image: linear-gradient(to top, #229494 , #e5f6fb);
+    border-radius: 3px;
+    padding:20px;
+    font-family:agba;
+}
+th:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #5b6d7f;
+    color:white;
+    transition: all 0.5s;
+}
