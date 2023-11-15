@@ -1,11 +1,16 @@
+@font-face {
+    font-family: dancing;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
 body{
-    width: 99%;
-    height: 635px;
+    margin:0;
+    width: 100%;
+    height: 100vh;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+.box{
     width:250px;
     height:330px;
     margin:150px auto;   
@@ -13,7 +18,7 @@ body{
     border:2px solid hidden;
     border-radius: 15px;
 }
-.container img{
+.box-img{
     width:250px;
     height: 170px;
     border:1px solid hidden;
@@ -21,22 +26,20 @@ body{
     border-top-left-radius: 15px;
     margin-bottom: 0px;
 }
-
-.containertext h2 , p{
+.box-header , .box-paraghraph{
     text-align: center;
     color:black;
+    font-family: dancing;
 }
-
-.containertext i{
+.box-icone{
     font-size: 25px;
     padding:0 10px 10px 10px;
     margin-bottom: 10px;
-
 }
 .instagram{
     margin-left:56px ;
 }
-.stylep{
+.box-button{
     border:1px solid hidden;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -48,11 +51,12 @@ body{
 }
 
 /**hover section**/
-
-.hoverclass:hover{
+.box-icone:hover{
     color:grey;
+    cursor: pointer;
 }
-.stylep:hover{
+.box-button:hover{
     background-color: gray;
     color : black;
+    cursor: pointer;
 }

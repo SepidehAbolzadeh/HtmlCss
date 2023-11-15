@@ -1,0 +1,64 @@
+@font-face {
+  font-family: dancing;
+  src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to right, #bdc2c6, #2e4150);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 200px;
+  height: 230px;
+  border: 2px solid white;
+  margin: 100px auto 0;
+}
+.box-icon {
+  text-align: center;
+  font-size: 130px;
+  padding: 20px 0 0 15px;
+}
+.box-header {
+  text-align: center;
+  font-family: dancing;
+  color: #27eeca;
+}
+.box-header2 {
+  color: #002c48;
+  text-align: center;
+  font-size: 0;
+  margin: 0;
+}
+.box-paragraph {
+  margin: 0;
+  font-family: dancing;
+  text-align: justify;
+  padding: 0 20px 20px;
+  font-size: 0;
+  color: white;
+}
+
+/*hover-section*/
+.box:hover .box-icon {
+  font-size: 0;
+}
+.box:hover .box-header {
+  font-size: 0;
+}
+
+.box:hover {
+  background-image: linear-gradient(to right, #41c8a4, #1e5e9a);
+  transition: all 1s linear;
+}
+.box:hover .box-paragraph {
+  font-size: 16px;
+  transition: all 1s ease-in-out;
+}
+.box:hover .box-header2 {
+  font-size: 30px;
+  font-family: dancing;
+}

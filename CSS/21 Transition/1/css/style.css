@@ -1,58 +1,59 @@
 @font-face {
-    font-family: kalam;
-    src: url(../fonts/Kalam-Bold.ttf);
+  font-family: acme;
+  src: url(../fonts/Acme-Regular.ttf);
 }
-@font-face {
-    font-family: acme;
-    src: url(../fonts/Acme-Regular.ttf);
+body {
+  background-color: black;
 }
-body{
-    background-color: black;
+.box {
+  width: 270px;
+  height: 320px;
+  margin: 50px auto 0;
+  border: 2px solid hidden;
+  background-color: white;
+  transition: all 0.5s linear;
 }
-.container{
-    width: 20%;
-    height: 40%;
-    margin: 50px auto 0;
-    border: 2px solid hidden;
-    background-color: white;
-    transition: margin 1s ease-in;
+.box-header {
+  color: black;
+  text-align: center;
+  font-family: acme;
+  font-size: 25px;
+  padding-top: 10px;
 }
-.container h1{
-    color : black;
-    text-align: center;
-    font-family: kalam;
-    font-size: 20px;
+.box-paragraph {
+  color: black;
+  text-align: justify;
+  font-family: acme;
+  padding: 0 30px;
 }
-.container p{
-    color : black;
-    text-align: justify;
-    font-family: acme;
-    padding: 0px 20px;
+.box-button {
+  display: inline-block;
+  font-family: acme;
+  color: black;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin: 3px 0 5px 80px;
+  padding: 0 30px;
+  text-decoration: none;
+  transition: all 0.5s linear;
 }
-.container a{
-    display: inline-block;
-    font-family:Macondo;
-    color:black;
-    text-align: center;
-    border:3px solid black;
-    border-radius: 30px;
-    margin: 50px 80px;
-    padding:0px 25px;
-    text-decoration: none;
-    transition: padding 0.5s ease-in-out;
+
+/*section-hover*/
+.box:hover {
+  background-image: linear-gradient(to top, #b069b8, #4568d9);
+  margin-top: 100px;
+  transition: all 1s linear;
 }
-.container:hover{
-    background-image: linear-gradient(to top, #b069b8 , #4568d9 );
-    margin:100px auto 0;
+.box-paragraph:hover {
+  color: white;
 }
-.container:hover p{
-     color:white;
-}
-.container a:hover{
-    font-family: kalam;
-    color:white; 
-    border:3px solid white; 
-    margin: 50px 70px;   
-    padding: 0 40px;
-    background-image:linear-gradient(to top, #033d7f , #190c45);
+.box-button:hover {
+  padding: 0 50px;
+  margin-left: 65px;
+  color: white;
+  border: 3px solid hidden;
+  background-image: linear-gradient(to top, #033d7f, #190c45);
+  cursor: pointer;
+  transition: all 1s linear;
 }

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: dancing;
+  src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to top, #11171d, #bdc2c6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: 2px solid white;
+  margin: 200px 0 0 550px;
+  background-image: url(../image/mountain.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #32b791;
+  padding-top: 30px;
+}
+.box-header-hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 0;
+}
+.box-paragraph {
+  margin: 0;
+  font-family: dancing;
+  text-align: justify;
+  padding: 0 20px 20px;
+  font-size: 0;
+  color: white;
+}
+.box-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 0 25px;
+  border-radius: 10px 3px 10px 10px;
+  background-color: #0bb1ab;
+  margin: 10px 0 0 35px;
+  font-size: 0;
+}
+
+/*hover-section*/
+
+.box:hover {
+}
+
+.box:hover .box-header {
+  font-size: 0;
+}
+.box:hover .box-header-hover {
+  font-size: 15px;
+}
+.box:hover .box-paragraph {
+  font-size: 16px;
+}
+.box:hover .box-button {
+  font-size: 16px;
+}
