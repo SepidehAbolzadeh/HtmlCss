@@ -22,24 +22,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.minibox {
+  width: 180px;
+  height: fit-content;
+  margin: 0 auto;
+}
 .box-header {
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #32b791;
-  padding-top: 30px;
-}
-.box-header-hover {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  margin: 0;
-  font-size: 0;
+  padding-top: 70px;
+  transition: all 1s;
 }
 .box-paragraph {
   margin: 0;
   font-family: dancing;
   text-align: justify;
-  padding: 0 20px 20px;
+  padding-top: 10px;
   font-size: 0;
   color: white;
 }
@@ -51,23 +51,23 @@ body {
   padding: 0 25px;
   border-radius: 10px 3px 10px 10px;
   background-color: #0bb1ab;
-  margin: 10px 0 0 35px;
+  margin: 10px 0 0 45px;
   font-size: 0;
 }
 
 /*hover-section*/
 
 .box:hover {
+  box-shadow: inset 0 200px 100px -50px #07bfb8;
 }
-
 .box:hover .box-header {
-  font-size: 0;
-}
-.box:hover .box-header-hover {
-  font-size: 15px;
+  color: black;
+  text-align: justify;
+  padding: 20px 0 0 0;
+  transition: all 1s linear;
 }
 .box:hover .box-paragraph {
-  font-size: 16px;
+  font-size: 15px;
 }
 .box:hover .box-button {
   font-size: 16px;

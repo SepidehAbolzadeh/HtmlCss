@@ -1,0 +1,50 @@
+@font-face {
+  font-family: ms;
+  src: url(../font/MsMadi-Regular.ttf);
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.moon {
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  margin: 135px auto;
+  transition: all 1s ease-out;
+}
+.moon-header {
+  text-align: center;
+  color: #4a4c52;
+  font-family: ms;
+  font-size: 0;
+}
+.moon-paragraph {
+  padding: 0 50px;
+  color: #5c6770;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0;
+}
+/*hover-section*/
+.moon:hover {
+  box-shadow: 0 5px 20px #606d76, -3px -3px 10px white, 3px -3px 10px white,
+    -3px 3px 10px white, 3px 3px 10px white;
+  outline: 5px solid #6a7881;
+  transition: all 1s;
+}
+.moon:hover .moon-header {
+  font-size: 30px;
+  padding-top: 20px;
+  transition: all 1s;
+}
+.moon:hover .moon-paragraph {
+  font-size: 14px;
+  padding-top: 10px;
+  transition: all 1s;
+}
