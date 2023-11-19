@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.box-one {
+  height: 70px;
+  background-color: #00feff;
+}
+.box-two {
+  height: 70px;
+  background-color: #0200ff;
+}
+.box-three {
+  height: 70px;
+  background-color: #00feff;
+}
+.box-four {
+  height: 70px;
+  background-color: #018b8c;
+  margin-top: 50px;
+}
+.box-five {
+  height: 70px;
+  background-color: #efefef;
+}
+.box-six {
+  height: 70px;
+  background-color: #017474;
+}
+.box-heading {
+  text-align: center;
+}
+
+.box-two:hover {
+  visibility: hidden;
+}
+.box-five:hover {
+  display: none;
+}
