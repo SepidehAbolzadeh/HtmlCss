@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: black;
+}
+.top-box {
+  width: 1350px;
+  height: 70px;
+  background-color: #444345;
+  border-radius: 30px;
+  position: sticky;
+  top: 0px;
+  left: 50px;
+}
+.top-box-text {
+  text-align: center;
+  color: white;
+  padding-top: 13px;
+}
+.mid-box {
+  width: 1350px;
+  height: 70px;
+  background-color: white;
+  border-radius: 30px;
+  position: fixed;
+  top: 170px;
+  left: 50px;
+}
+.mid-box-text {
+  text-align: center;
+  padding-top: 13px;
+}
+.first-heading {
+  width: 100px;
+  color: white;
+  position: relative;
+  top: 400px;
+  left: 670px;
+}
+.first-box-img {
+  width: 250px;
+  height: 400px;
+  background-image: url(../images/sanji.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  top: 500px;
+  left: 580px;
+}
+.first-paragraph {
+  color: white;
+  width: 530px;
+  position: relative;
+  top: 600px;
+  left: 30px;
+}
+.parent {
+  position: relative;
+}
+.second-heading {
+  width: 100px;
+  color: white;
+  position: absolute;
+  top: 770px;
+  left: 670px;
+}
+.second-box-img {
+  width: 250px;
+  height: 400px;
+  background-image: url(../images/luffy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: absolute;
+  top: 950px;
+  left: 580px;
+}
+.second-paragraph {
+  color: white;
+  width: 530px;
+  position: relative;
+  top: 1050px;
+  left: 30px;
+}
