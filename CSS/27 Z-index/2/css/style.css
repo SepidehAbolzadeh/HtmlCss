@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/ubisoft.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+.left-box {
+  width: 250px;
+  height: 280px;
+  border-radius: 30px;
+  background-image: url(../images/assassin-screed.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 400px;
+  left: 115px;
+}
+
+.mid-box {
+  width: 740px;
+  height: 440px;
+  border-radius: 30px;
+  background-image: url(../images/ubisoft.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 100px;
+  left: 340px;
+  z-index: 1;
+}
+.right-box {
+  width: 250px;
+  height: 280px;
+  border-radius: 30px;
+  background-image: url(../images/for-honor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 120px;
+  left: 1060px;
+}
