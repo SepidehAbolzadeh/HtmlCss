@@ -6,6 +6,14 @@ body {
   width: 100%;
   background-color: black;
 }
+.parent {
+  width: 1350px;
+  height: 300px;
+  position: relative;
+  top: 0px;
+  left: 30px;
+  padding-top: 80px;
+}
 .top-box {
   width: 1350px;
   height: 70px;
@@ -13,7 +21,6 @@ body {
   border-radius: 30px;
   position: sticky;
   top: 0px;
-  left: 50px;
 }
 .top-box-text {
   text-align: center;
@@ -26,8 +33,7 @@ body {
   background-color: white;
   border-radius: 30px;
   position: fixed;
-  top: 170px;
-  left: 50px;
+  top: 200px;
 }
 .mid-box-text {
   text-align: center;
@@ -37,7 +43,7 @@ body {
   width: 100px;
   color: white;
   position: relative;
-  top: 400px;
+  top: 350px;
   left: 670px;
 }
 .first-box-img {
@@ -49,7 +55,7 @@ body {
   background-size: cover;
   border-radius: 20px;
   position: relative;
-  top: 500px;
+  top: 400px;
   left: 580px;
 }
 .first-paragraph {
@@ -66,8 +72,8 @@ body {
   width: 100px;
   color: white;
   position: absolute;
-  top: 770px;
-  left: 670px;
+  top: 795px;
+  left: 630px;
 }
 .second-box-img {
   width: 250px;
@@ -79,12 +85,12 @@ body {
   border-radius: 20px;
   position: absolute;
   top: 950px;
-  left: 580px;
+  left: 550px;
 }
 .second-paragraph {
   color: white;
   width: 530px;
   position: relative;
   top: 1050px;
-  left: 30px;
+  left: 10px;
 }
