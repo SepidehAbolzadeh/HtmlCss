@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../images/5272.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.first-box {
+  width: 300px;
+  height: 400px;
+  background-image: url(../images/230665.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 550px;
+  z-index: 3;
+}
+.second-box {
+  width: 280px;
+  height: 380px;
+  background-image: url(../images/230645.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+  top: 80px;
+  left: 560px;
+  z-index: 2;
+}
+.third-box {
+  width: 260px;
+  height: 360px;
+  background-image: url(../images/230650.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+  top: 60px;
+  left: 570px;
+  z-index: 1;
+}
+.fourth-box {
+  width: 240px;
+  height: 340px;
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+  top: 40px;
+  left: 585px;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, yellow, pink);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: pink;
+  border: 1px solid violet;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 2px 2px 5px #54279c, inset -2px -2px 5px #4d268d;
+}

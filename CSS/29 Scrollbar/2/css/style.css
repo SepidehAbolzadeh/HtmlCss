@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: #064d89;
+}
+.box {
+  width: 1000px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.heading {
+  width: 300px;
+  position: relative;
+  left: 400px;
+}
+.paragraph {
+  text-align: justify;
+  position: relative;
+  top: 60px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

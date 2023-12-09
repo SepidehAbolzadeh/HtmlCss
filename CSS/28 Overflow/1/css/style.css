@@ -1,0 +1,44 @@
+body {
+  background-color: #5f9ea9;
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragraph {
+  color: white;
+}
+.hidden-box {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 800px;
+}
+.scroll-box {
+  position: relative;
+  top: 70px;
+}
+.auto-box {
+  position: relative;
+  top: 70px;
+}
+.second-paragraph {
+  width: 200px;
+  height: 65px;
+  background-color: #50ff9f;
+  border: 1px solid black;
+}
+.visible-paragraph {
+  width: 200px;
+  height: 65px;
+  background-color: #50ff9f;
+  /*overflow: visible;*/
+}
+.hidden-paragraph {
+  overflow: hidden;
+}
+.scroll-paragraph {
+  overflow: scroll;
+}
+.auto-paragraph {
+  overflow: auto;
+}
