@@ -1,0 +1,26 @@
+.first-box {
+  width: 1200px;
+  height: 150px;
+  background-color: #faebd7;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 100px auto;
+}
+.cat-pic {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.second-box {
+  width: 1200px;
+  height: 150px;
+  background-color: #7ceaf1;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 100px auto;
+}
+.dog-pic {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
