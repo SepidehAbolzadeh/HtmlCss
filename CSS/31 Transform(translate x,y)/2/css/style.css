@@ -1,0 +1,11 @@
+.box {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 200px;
+  background-color: #808080;
+  border: 5px solid #7cffff;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  transform: translate(100px, 280px);
+}
