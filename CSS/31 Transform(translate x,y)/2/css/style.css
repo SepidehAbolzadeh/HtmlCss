@@ -1,5 +1,8 @@
-.box {
+* {
+  margin: 0;
   box-sizing: border-box;
+}
+.box {
   width: 1200px;
   height: 200px;
   background-color: #808080;
