@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.heading {
+  width: 162px;
+  margin: 50px auto;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.month {
+  width: 1400px;
+  height: 150px;
+  background-color: #0c3581;
+  margin: auto;
+}
+.text-month {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 45px;
+}
+.text-year {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.calendar {
+  width: 1400px;
+  height: 130px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+th {
+  background-color: #dddddd;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: left;
+  padding-left: 50px;
+}
+
+td {
+  text-align: left;
+  padding-left: 55px;
+  background-color: #eeeeee;
+  color: gray;
+  font-size: 11px;
+}
+p:hover {
+  background-color: #0c3581;
+  color: white;
+  width: 13px;
+}

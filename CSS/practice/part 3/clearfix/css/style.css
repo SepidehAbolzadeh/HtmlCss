@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.first-box {
+  width: 1200px;
+  background-color: #faebd7;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 100px auto;
+  overflow: auto; /*clearfix*/
+}
+.cat-pic {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.dog-pic {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.second-box {
+  width: 1200px;
+  background-color: #7ceaf1;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 100px auto;
+}
+/*clearfix*/
+.second-box ::after {
+  content: "";
+  clear: both;
+  display: table;
+}

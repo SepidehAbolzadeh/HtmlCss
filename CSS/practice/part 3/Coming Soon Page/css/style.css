@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: spacemono;
+  src: url(../font/SpaceMono-Regular.ttf);
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/lion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fefefe;
+  font-family: spacemono;
+}
+.top-text {
+  width: 30px;
+  font-size: 25px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  /* or   transform: translate(10px, 10px);*/
+}
+.heading-first {
+  width: 350px;
+  font-size: 40px;
+  letter-spacing: 3px;
+  transform: translate(550px, 320px);
+}
+.line {
+  width: 100px;
+  border-bottom: 2px solid #fefefe;
+  transform: translate(650px, 340px);
+}
+.heading-second {
+  width: 200px;
+  font-size: 20px;
+  transform: translate(630px, 360px);
+}
+.bottom-text {
+  width: 200px;
+  font-size: 25px;
+  transform: translate(10px, 610px);
+}

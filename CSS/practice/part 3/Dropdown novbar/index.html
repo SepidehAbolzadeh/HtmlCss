@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown navbar</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div>
+      <ul class="navbar">
+        <li><a class="link" href="#">Home</a></li>
+        <li><a class="link" href="#">News</a></li>
+        <li class="dropdown">
+          <a class="link" href="#">Dropdown</a>
+          <div class="dropdown-content">
+            <a class="item-dropdown" href="#"
+              ><span style="color: rgb(201, 169, 64)">Lin</span
+              ><span style="color: rgb(70, 70, 155)">k1</span></a
+            >
+            <a class="item-dropdown" href="#"
+              ><span style="color: rgb(201, 169, 64)">Lin</span
+              ><span style="color: rgb(70, 70, 155)">k2</span></a
+            >
+            <a class="item-dropdown" href="#"
+              ><span style="color: rgb(201, 169, 64)">Lin</span
+              ><span style="color: rgb(70, 70, 155)">k3</span></a
+            >
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="dropup">
+      <button class="dropup-btn">Dropup</button>
+      <div class="dropup-content">
+        <a class="item-dropup" href="#">Link 1</a>
+        <a class="item-dropup" href="#">Link 2</a>
+        <a class="item-dropup" href="#">link 3</a>
+      </div>
+    </div>
+  </body>
+</html>
