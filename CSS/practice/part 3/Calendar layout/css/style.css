@@ -45,7 +45,6 @@ th {
   text-align: left;
   padding-left: 50px;
 }
-
 td {
   text-align: left;
   padding-left: 55px;
@@ -53,8 +52,9 @@ td {
   color: gray;
   font-size: 11px;
 }
-p:hover {
+td:hover {
   background-color: #0c3581;
   color: white;
-  width: 13px;
+  width: 3px;
+  padding: 0;
 }
